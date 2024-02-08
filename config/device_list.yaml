@@ -1,0 +1,100 @@
+#################################### Aruba Switch ###############################################
+
+- hostname: Aruba-2930F
+  device_type: aruba_os
+  host: 1.1.1.1
+  directory: /home/backup/A/
+  
+- hostname: Aruba-2930F
+  device_type: aruba_os
+  host: 1.1.1.2
+  directory: /home/backup/A/
+
+- hostname: Aruba-6200F
+  device_type: aruba_os
+  host: 1.1.1.3
+  directory: /home/backup/A/
+
+#################################### Cisco Switch ############################################
+
+- hostname: Cisco-2960S
+  device_type: cisco_ios
+  host: 1.1.1.4
+  directory: /home/backup/A/
+
+- hostname: Cisco-2960S
+  device_type: cisco_ios
+  host: 1.1.1.5
+  directory: /home/backup/A/
+
+##################################### HPE  Switch #############################################
+
+- hostname: HPE-5120
+  device_type: hp_comware
+  host: 1.1.1.6
+  directory: /home/backup/A/
+
+- hostname: HPE-5120
+  device_type: hp_comware
+  host: 1.1.1.7
+  directory: /home/backup/A/
+
+- hostname: HPE-5940
+  device_type: hp_comware
+  host: 1.1.1.8
+  directory: /home/backup/A/
+
+- hostname: HPE-5130-SRV
+  device_type: hp_comware
+  host: 1.1.1.10
+  directory: /home/backup/A/
+
+- hostname: HPE-1950
+  device_type: hp_comware
+  host: 1.1.1.11
+  directory: /home/backup/A/
+
+##################################### Aruba Controller #########################################
+
+- hostname: Aruba-7030-Controller
+  device_type: aruba_os
+  host: 1.1.1.12
+  directory: /home/backup/A/
+
+- hostname: Aruba-Mobility-Master
+  device_type: aruba_os
+  host: 1.1.1.13
+  directory: /home/backup/A/
+
+###################################### Fortigate ################################################
+
+- hostname: Forti-60F
+  device_type: fortinet
+  host: 1.1.1.14
+  directory: /home/backup/A/
+
+- hostname: Forti-60F
+  device_type: fortinet
+  host: 1.1.1.15
+  directory: /home/backup/A/
+
+- hostname: Forti-200E
+  device_type: fortinet
+  host: 1.1.1.16
+  directory: /home/backup/A/
+
+##################################    Palo Alto   ################################################
+
+- hostname: Palo-Alto-820
+  device_type: paloalto_panos
+  host: 1.1.1.17
+  directory: 
+    -  /home/backup/A/
+    -  /home/backup/B/
+
+##################################   SuperMicro   ################################################
+
+- hostname: SSE-G2252-1
+  device_type: supermicro_smis_telnet
+  host: 1.1.1.18
+  directory: /home/backup/A/
